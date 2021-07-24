@@ -1,0 +1,22 @@
+
+
+
+.product-title{
+    font-weight: bold;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  
+.products-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.total{
+    color:rgb(151, 36, 36)
+}   
