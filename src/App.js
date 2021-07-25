@@ -6,14 +6,12 @@ import {Cart} from './Cart'
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import{Login} from './Login'
 import { Register } from './Register';
-import { useState } from 'react';
 
 
 
 
 function App() {
-  const [token,setToken] = useState();
-
+ 
   // if(!token) {
   //   return <Login setToken={setToken} />
     

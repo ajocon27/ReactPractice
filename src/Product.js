@@ -4,8 +4,7 @@ import axios from 'axios';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import {} from './Product.css';
-import Swal from 'sweetalert2';
-import withReactContent from 'sweetalert2-react-content';
+
 
 export class Product extends Component{
     
