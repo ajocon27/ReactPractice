@@ -2,10 +2,8 @@ import React,{Component} from 'react';
 
 import {Navbar,Nav, Container} from 'react-bootstrap';
 export class Navigation extends Component{
-
     render(){
         return(
-            
             <Navbar fixed="top" bg="primary" variant="dark" expand="lg">
                 <Container>
                 <Navbar.Brand href="/"><i className="bi bi-phone"></i>Phone Shop</Navbar.Brand>
@@ -22,8 +20,7 @@ export class Navigation extends Component{
                     </Nav>
                 </Navbar.Collapse>
                 </Container>
-            </Navbar>
-            
+            </Navbar> 
         )
     }
 }
